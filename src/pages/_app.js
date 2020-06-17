@@ -1,8 +1,9 @@
-import React from 'react';
-import App from 'next/app';
 import '@fortawesome/fontawesome-free/js/all';
 import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
+
+import React from 'react';
+import App from 'next/app';
 import Layout from '../components/Layout';
 
 export default class MyApp extends App {

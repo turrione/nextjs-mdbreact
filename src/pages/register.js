@@ -58,7 +58,7 @@ const Example = () => (
                 />
               </div>
               <div className='text-center'>
-                <MDBBtn color='primary'>Register</MDBBtn>
+                <MDBBtn color='indigo'>Register</MDBBtn>
               </div>
             </form>
           </MDBCardBody>

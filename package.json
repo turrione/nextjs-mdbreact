@@ -1,22 +1,19 @@
 {
   "name": "nextjs-mdb",
-  "version": "4.25.3",
-  "description": "Integration example for MDBReact and Next.js create-next-app",
+  "version": "1",
+  "description": "Next.js with MDBReact",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 8080",
     "build": "next build",
-    "start": "next start"
+    "start": "next build && NODE_ENV=production next start -p 8080"
   },
-  "author": "Jakub Chmura",
-  "repository": "https://github.com/JakubChm/nextjs-mdbreact.git",
+  "author": "Marc Torrents",
+  "repository": "https://github.com/turrione/nextjs-mdbreact",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
     "mdbreact": "^4.25.5",
-    "next": "^9.3.4",
-    "next-compose-plugins": "^2.2.0",
-    "next-fonts": "^1.0.3",
-    "next-images": "^1.4.0",
+    "next": "^9.4.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
